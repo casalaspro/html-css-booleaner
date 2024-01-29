@@ -58,3 +58,23 @@ ul{
 li{
   margin-top: 0.5vw;
 }
+
+table{
+  border-collapse: collapse;
+  margin-top: 2vw;
+  width: 100%;
+}
+
+thead tr{
+  background-color: #1EA9E5;
+  color: white;
+  text-align: left;
+}
+
+thead th:nth-child(3){
+  width: 50%;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #B2E4F2;
+}
