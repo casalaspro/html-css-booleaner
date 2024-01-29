@@ -6,13 +6,25 @@
 
 #site-title{
   background-color: #4FA0FF;
+  background-image: url("./img/pattern.png");
+  background-position: center;
 }
 
 #logo{
   margin-top: 3vw;
   width: 30%;
+  margin-bottom: 1vw;
 }
 
 .container{
   margin: 0 10% 0 10%;
+}
+
+.article-title > h1{
+  font-size: 2vw;
+  margin-top: 2vw;
+}
+
+.grey{
+color: #808080;
 }
