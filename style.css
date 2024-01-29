@@ -78,3 +78,27 @@ thead th:nth-child(3){
 tbody tr:nth-child(odd){
   background-color: #B2E4F2;
 }
+
+aside{
+  margin-top: 2vw;
+}
+
+.preview{
+  width: 16vw;
+  height: 12vw;
+  margin-top: 1vw;
+  padding: 1vw;
+}
+
+aside > div:nth-child(2){
+  background-image: url("./img/monitor.jpg");
+}
+aside > div:nth-child(3){
+  background-image: url("./img/graph.jpg");
+}
+
+.white{
+  color: white;
+}
+
+
